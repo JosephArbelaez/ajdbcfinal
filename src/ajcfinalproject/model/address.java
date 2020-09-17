@@ -33,7 +33,7 @@ public class address {
         return addressId;
     }
 
-    public void setAddressId() {
+    public void setAddressId(int addressId) {
         this.addressId = addressId;
     }
 
@@ -41,7 +41,7 @@ public class address {
         return address;
     }
 
-    public void setAddress() {
+    public void setAddress(String address) {
         this.address = address;
     }
 
@@ -49,7 +49,7 @@ public class address {
         return address2;
     }
 
-    public void setAddress2() {
+    public void setAddress2(String address2) {
         this.address2 = address2;
     }
 
@@ -57,7 +57,7 @@ public class address {
         return cityId;
     }
 
-    public void setCityId() {
+    public void setCityId(int cityId) {
         this.cityId = cityId;
     }
 
@@ -65,7 +65,7 @@ public class address {
         return postalCode;
     }
 
-    public void setPostalCode() {
+    public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
     }
 
@@ -73,7 +73,7 @@ public class address {
         return phone;
     }
 
-    public void setPhone() {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
@@ -81,7 +81,7 @@ public class address {
         return createdBy;
     }
 
-    public void setCreatedBy() {
+    public void setCreatedBy(String createdBy) {
         this.createdBy = createdBy;
     }
 
@@ -89,7 +89,7 @@ public class address {
         return lastUpdate;
     }
 
-    public void setLastUpdate() {
+    public void setLastUpdate(LocalDateTime lastUpdate) {
         this.lastUpdate = lastUpdate;
     }
 
@@ -97,7 +97,7 @@ public class address {
         return lastUpdateBy;
     }
 
-    public void setLastUpdateBy() {
+    public void setLastUpdateBy(String lastUpdateBy) {
         this.lastUpdateBy = lastUpdateBy;
     }
 }

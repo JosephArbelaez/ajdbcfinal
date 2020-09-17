@@ -24,7 +24,7 @@ public class country {
         return countryId;
     }
 
-    public void setCountryId() {
+    public void setCountryId(int countryId) {
         this.countryId = countryId;
     }
 
@@ -32,7 +32,7 @@ public class country {
         return country;
     }
 
-    public void setCountry() {
+    public void setCountry(String country) {
         this.country = country;
     }
 
@@ -40,7 +40,7 @@ public class country {
         return createDate;
     }
 
-    public void setCreateDate() {
+    public void setCreateDate(LocalDateTime createDate) {
         this.createDate = createDate;
     }
 
@@ -48,7 +48,7 @@ public class country {
         return createdBy;
     }
 
-    public void setCreatedBy() {
+    public void setCreatedBy(String createdBy) {
         this.createdBy = createdBy;
     }
 
@@ -56,7 +56,7 @@ public class country {
         return lastUpdate;
     }
 
-    public void setLastUpdate() {
+    public void setLastUpdate(LocalDateTime lastUpdate) {
         this.lastUpdate = lastUpdate;
     }
 
@@ -64,7 +64,7 @@ public class country {
         return lastUpdateBy;
     }
 
-    public void setLastUpdateBy() {
+    public void setLastUpdateBy(String lastUpdateBy) {
         this.lastUpdateBy = lastUpdateBy;
     }
 }
