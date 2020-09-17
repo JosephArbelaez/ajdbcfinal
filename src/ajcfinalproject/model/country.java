@@ -8,12 +8,12 @@ public class country {
     LocalDateTime lastUpdate;
     String lastUpdateBy;
 
-    public city(){};
+    public country(){};
 
-    public city (int countryId, String country, LocalDateTime createDate, String createdBy, LocalDateTime lastUpdate, String lastUpdateBy) {
+    public country (int countryId, String country, LocalDateTime createDate, String createdBy, LocalDateTime lastUpdate, String lastUpdateBy) {
         super();
-        this.cityId = countryId;
-        this.city = country;
+        this.countryId = countryId;
+        this.country = country;
         this.createDate = createDate;
         this.createdBy = createdBy;
         this.lastUpdate = lastUpdate;
@@ -21,19 +21,19 @@ public class country {
     }
 
     public int getCountryId() {
-        return cityId;
+        return countryId;
     }
 
     public void setCountryId() {
-        this.cityId = cityId;
+        this.countryId = countryId;
     }
 
     public String getCountry() {
-        return city;
+        return country;
     }
 
     public void setCountry() {
-        this.city = city;
+        this.country = country;
     }
 
     public LocalDateTime getCreateDate() {

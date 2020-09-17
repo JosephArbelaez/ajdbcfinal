@@ -13,9 +13,9 @@ public class address {
     LocalDateTime lastUpdate;
     String lastUpdateBy;
 
-    public city(){};
+    public address(){};
 
-    public city (int cityId, String city, int countryId, LocalDateTime createDate, String createdBy, LocalDateTime lastUpdate, String lastUpdateBy) {
+    public address (int cityId, String city, int countryId, LocalDateTime createDate, String createdBy, LocalDateTime lastUpdate, String lastUpdateBy) {
         super();
         this.addressId = addressId;
         this.address = address;
@@ -37,7 +37,7 @@ public class address {
         this.addressId = addressId;
     }
 
-    public int getAddress() {
+    public String getAddress() {
         return address;
     }
 
@@ -45,7 +45,7 @@ public class address {
         this.address = address;
     }
 
-    public int getAddress2() {
+    public String getAddress2() {
         return address2;
     }
 
@@ -61,7 +61,7 @@ public class address {
         this.cityId = cityId;
     }
 
-    public int getPostalCode() {
+    public String getPostalCode() {
         return postalCode;
     }
 
@@ -69,7 +69,7 @@ public class address {
         this.postalCode = postalCode;
     }
 
-    public int getPhone() {
+    public String getPhone() {
         return phone;
     }
 
