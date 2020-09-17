@@ -10,9 +10,11 @@ public class connection {
     static String pass = "53688776651";
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
+        System.out.println("Connection.java");
         if (c == null) {
             // 1. Get a connection to database
             myConn = DriverManager.getConnection(url, user, pass);
+            
         } 
         return c;
         }
