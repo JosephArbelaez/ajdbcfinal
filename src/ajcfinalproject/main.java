@@ -2,7 +2,7 @@ package ajcfinalproject;
 import java.sql.*;
 import java.io.*;
 
-public class AjcFinalProject {
+public class main {
     public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException  {
         Boolean running = false;
 
@@ -17,7 +17,7 @@ public class AjcFinalProject {
                 running = true;
             }
         }   
-//        Connection c = connection.getConnection();
+        Connection c = connection.getConnection();
     }
 
 }

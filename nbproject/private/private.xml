@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/src/ajcfinalproject/AjcFinalProject.java</file>
+            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/ajdbcfinal/src/ajcfinalproject/util/connection.java</file>
+            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/ajdbcfinal/src/ajcfinalproject/model/country.java</file>
+            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/ajdbcfinal/src/ajcfinalproject/model/appointment.java</file>
+            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/ajdbcfinal/src/ajcfinalproject/AjcFinalProject.java</file>
+            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/ajdbcfinal/src/ajcfinalproject/model/user.java</file>
+            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/ajdbcfinal/src/ajcfinalproject/model/customer.java</file>
+            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/ajdbcfinal/src/ajcfinalproject/model/city.java</file>
+            <file>file:/C:/Users/josep/Documents/NetBeansProjects/ajcFinalProject/ajdbcfinal/src/ajcfinalproject/model/address.java</file>
         </group>
     </open-files>
 </project-private>
